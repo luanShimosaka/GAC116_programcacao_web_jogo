@@ -23,7 +23,7 @@ O jogo é totalmente funcional no navegador. Não é necessária nenhuma instala
 
 ## Link do Jogo
 O jogo está publicado e acessível no GitHub Pages:
-
+https://luanshimosaka.github.io/GAC116_programcacao_web_jogo/
 
 ## Licença
 Este projeto possui a licença MIT.
