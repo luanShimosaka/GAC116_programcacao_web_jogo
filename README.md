@@ -31,8 +31,8 @@ Este projeto possui a licença MIT.
 ## Informações do Autor
 ```json
 {
-"nome": "Defesa da Base",
-"descricao": "Jogo interativo de reflexo onde o jogador deve clicar nos alvos para marcar 15 pontos antes que o tempo esgote.",
-"autores": "Luan Yudi Shimosaka",
-"turma": "14A"
+  "nome": "Defesa da Base",
+  "descricao": "Jogo interativo de reflexo onde o jogador deve clicar nos alvos para marcar 15 pontos antes que o tempo esgote.",
+  "autores": "Luan Yudi Shimosaka",
+  "turma": "14A"
 }
