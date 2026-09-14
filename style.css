@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+}
+
+.instrucoes {
+    color: #555;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.painel {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+#mensagem-final {
+    height: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.buraco {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.alvo {
+    background-color: #ff4757;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.alvo-azul {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.alvo-preto {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
