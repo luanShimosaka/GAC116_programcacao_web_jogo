@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defesa da Base</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Defesa da Base</h1>
+        
+        <!-- Mensagens e instruções para o jogador -->
+        <p class="instrucoes">Regras: Clique nos alvos vermelhos antes que eles sumam! Faça 20 pontos em 15 segundos para vencer.</p>
+        
+        <div class="painel">
+            <h2>Tempo: <span id="tempo">15</span>s</h2>
+            <h2>Pontuação: <span id="pontuacao">0</span></h2>
+        </div>
+
+        <h3 id="mensagem-final"></h3>
+
+        <!-- Botões de Início e Reinício -->
+        <button id="btn-iniciar">Iniciar Partida</button>
+
+        <div class="grade">
+            <!-- 9 posições para o alvo aparecer -->
+            <div class="buraco" id="1"></div>
+            <div class="buraco" id="2"></div>
+            <div class="buraco" id="3"></div>
+            <div class="buraco" id="4"></div>
+            <div class="buraco" id="5"></div>
+            <div class="buraco" id="6"></div>
+            <div class="buraco" id="7"></div>
+            <div class="buraco" id="8"></div>
+            <div class="buraco" id="9"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
